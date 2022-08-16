@@ -1,0 +1,8 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=63529:C:\Users\Lalit Chaudhari\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Lalit Chaudhari\OneDrive\Desktop\NIIT\EncapsulationDemo\out\production\EncapsulationDemo" main.BookImpl
+object.getTitle() = Complete Reference 12th Edition
+object.getAuthorName() = Herbert Schildth
+object.getYearOfPublishing() = 2021
+object.getIsbn() = 1234567890123
+
+Process finished with exit code 0
+//

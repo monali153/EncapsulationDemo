@@ -9,11 +9,11 @@ public class Customer {
     private boolean isPremiumMember;
 
     public Customer() {
-        String name = "Sonali";
-        String address = "Mumbai";
-        String email = "sona123@gmail.com";
-        long mobileNo = 9542261852L;
-        boolean isPremiumMember = false;
+        name = "Sonali";
+        address = "Mumbai";
+        email = "sona123@gmail.com";
+        mobileNo = 9542261852L;
+        isPremiumMember = false;
     }
 
     public Customer(String name, String address, String email, long mobileNo, boolean isPremiumMember) {

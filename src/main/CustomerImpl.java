@@ -24,7 +24,13 @@ public class CustomerImpl {
 
         object2.displayCustomer();
 
+
         object1 = object2;
+
+        object1.displayCustomer();
+
+        object2 = object1;
+        object2.displayCustomer();
 
     }
 }
