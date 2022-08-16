@@ -18,18 +18,26 @@ public class CustomerImpl {
 
         Customer object1 = new Customer("Monali", "Pune", "mona153@gmail.com", 9152432649L, true);
 
+        System.out.println("Display details by calling parameterized constructor");
         object1.displayCustomer();
 
+        System.out.println();
+
         Customer object2 = new Customer();
+        System.out.println("Display details by calling no-argument constructor");
 
         object2.displayCustomer();
 
 
         object1 = object2;
 
+        System.out.println("\nDisplay object1 details");
+
         object1.displayCustomer();
 
         object2 = object1;
+
+        System.out.println("\nDisplay object2 details");
         object2.displayCustomer();
 
     }
