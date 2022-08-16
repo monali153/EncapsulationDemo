@@ -28,16 +28,16 @@ public class CustomerImpl {
 
         object2.displayCustomer();
 
-
+        Customer temp = object1;
         object1 = object2;
+        object2 = temp;
 
-        System.out.println("\nDisplay object1 details");
+        System.out.println("\nobject1 display object2 values");
 
         object1.displayCustomer();
 
-        object2 = object1;
 
-        System.out.println("\nDisplay object2 details");
+        System.out.println("\nobject2 display object1 values");
         object2.displayCustomer();
 
     }
