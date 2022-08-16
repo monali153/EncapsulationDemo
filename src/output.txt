@@ -5,3 +5,4 @@ object.getYearOfPublishing() = 2021
 object.getIsbn() = 1234567890123
 
 Process finished with exit code 0
+//
