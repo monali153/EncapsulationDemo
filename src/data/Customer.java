@@ -8,15 +8,15 @@ public class Customer {
     private long mobileNo;
     private boolean isPremiumMember;
 
-    Customer() {
-        String name = null;
-        String address = null;
-        String email = null;
-        long mobileNo = 0;
+    public Customer() {
+        String name = "Sonali";
+        String address = "Mumbai";
+        String email = "sona123@gmail.com";
+        long mobileNo = 9542261852L;
         boolean isPremiumMember = false;
     }
 
-    Customer(String name, String address, String email, long mobileNo, boolean isPremiumMember) {
+    public Customer(String name, String address, String email, long mobileNo, boolean isPremiumMember) {
 
         this.name = name;
         this.address = address;
